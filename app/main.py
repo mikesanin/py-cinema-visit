@@ -12,5 +12,3 @@ def cinema_visit(customers: list, hall_number: int, cleaner: str, movie: str) ->
     for data in customers:
         customer = Customer(**data)
         cinema_hall.movie_session(movie, [customer], cleaning_staff)
-
-    return None
