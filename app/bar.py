@@ -8,7 +8,9 @@ class Customer:
 
 class CinemaBar:
     @staticmethod
-    def sell_product(customers: list[Customer], product: str, customer: Customer = None) -> None:
+    def sell_product(
+        customers: list[Customer], product: str, customer: Customer = None
+    ) -> None:
         if customer:
             print(f"Cinema bar sold {product} to {customer.name}.")
         else:
