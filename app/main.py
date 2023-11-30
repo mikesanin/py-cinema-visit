@@ -10,7 +10,6 @@ def cinema_visit(
     cleaner: str,
     movie: str
 ) -> None:
-    cinema_bar = CinemaBar()
     cinema_hall = CinemaHall(hall_number)
     cleaning_staff = Cleaner(cleaner)
 
